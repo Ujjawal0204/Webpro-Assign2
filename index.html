@@ -22,7 +22,8 @@
         <input type="number" id="b" placeholder="second number" />
         <button type="submit">Submit</button>
     </form>
-    <p style="display: none" id="ans">Sum :<input id="answer" /></p>
+    <p style="display: none" id="ans">
+        Sum :<input id="answer" /></p>
     <script>
        function add() {
         event.preventDefault()
@@ -31,6 +32,7 @@
         document.getElementById("answer").value = a + b;
         document.getElementById("ans").style.display = "block"
     }</script>
+    
 </body>
 
 </html>
